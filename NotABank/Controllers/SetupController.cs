@@ -12,7 +12,7 @@ using NotABank.Models;
 
 namespace NotABank.Controllers
 {
-    public class SetupController : Controller
+    public class SetupController : Controller 
     {
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
